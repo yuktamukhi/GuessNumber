@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 30px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Press Start 2P', sans-serif;
+  color: #090909;
+  background-color: #e7f1a7;
+  /* background-color: #60b347; */
+}
+
+header {
+  position: relative;
+  height: 35vh;
+  border-bottom: 2px solid #111010;
+}
+
+main {
+  height: 65vh;
+  color: #141212;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.left {
+  width: 52rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.right {
+  width: 52rem;
+  font-size: 30px;
+  border-block-start-color: initial;
+  background-color: rgb(213, 197, 228);
+  font-family: math;
+  font-style: oblique;
+  color: rgb(6, 14, 11);
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.image {
+  background: #22d53d;
+  color: #333;
+  font-size: 20px;
+  width: 40px;
+  /* padding: 3rem 0rem; */
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+
+.between {
+  font-size: 20px;
+  position: absolute;
+  /* top: 2rem; */
+  right: 5px;
+}
+
+.again {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  font-size: 25px;
+}
+
+.inputtextClass {
+  background: none;
+  border: 4px solid #bd8181;
+  font-family: inherit;
+  color: inherit;
+  font-size: 25px;
+  padding: 5px;
+  width: 20rem;
+  text-align: center;
+  display: block;
+  margin-bottom: 3px;
+}
+
+.btn {
+  border: none;
+  background-color: #ea915d;
+  color: #222;
+  font-size: 22px;
+  font-family: inherit;
+  padding: 10px 10px;
+  cursor: pointer;
+  width: 10rem;
+  height: 2rem;
+  font-family: cursive;
+}
+
+.btn:hover {
+  background-color: #ccc;
+}
+
+.message {
+  margin-bottom: -40px;
+  height: 3rem;
+}
+
+.label-score {
+  margin-bottom: 2rem;
+}
